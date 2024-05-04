@@ -1,0 +1,15 @@
+
+form{
+background-color: rgb(156, 150, 150);
+width: max-content;
+padding: 5px;
+border-radius: 7px;
+}
+
+.inputMargTopButtom{
+
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+
+}

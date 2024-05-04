@@ -1,0 +1,22 @@
+
+table{
+    border: 3px rgb(82, 33, 0) solid;
+    border-collapse: collapse ;
+}
+
+.td1{
+
+    border: 1px rgb(82, 33, 0) solid;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(167, 79, 28);
+    text-align: center;
+}
+.td2{
+
+    border: 1px rgb(82, 33, 0) solid;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(168, 66, 19);
+   text-align: center;
+}

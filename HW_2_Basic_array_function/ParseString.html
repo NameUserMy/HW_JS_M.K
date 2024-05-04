@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/parseString.js"></script>
+    <link rel="stylesheet" href="./css/form.css">
+    <title>Parse String </title>
+</head>
+<body>
+    <form  onsubmit="urlParse(parseUrl,protocol,host,path,fileName,request);  return false;">
+
+       
+        <label>Enter url:</label> <br>
+        <input  class="inputMargTopButtom" type="text" name="parseUrl" 
+        value=" https://ufa.com.ua/utilites/hdd/out.php?sort=2"
+        required><br>
+
+        <label>Protocol:</label> <br>
+
+        <input class="inputMargTopButtom" name="protocol" type="text" > <br>
+
+        <label>Host:</label> <br>
+
+        <input class="inputMargTopButtom"  name="host" type="text" ><br>
+
+        <label>Path:</label><br>
+
+        <input class="inputMargTopButtom" name="path" type="text"  ><br>
+
+        <label>File name:</label><br>
+
+        <input class="inputMargTopButtom" name="fileName" type="text"  ><br>
+
+        <label>Request string:</label><br>
+
+        <input class="inputMargTopButtom" name="request" type="text"  ><br>
+
+        <input class="inputMargTopButtom" type="submit" value="Parse">
+    </form>
+    <a href="index.html">Back</a>
+</body>
+</html>
