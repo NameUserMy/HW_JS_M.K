@@ -1,0 +1,89 @@
+
+body{
+    text-align: center;
+}
+
+table{
+    border: 3px rgb(82, 33, 0) solid;
+    border-collapse: collapse ;
+    background-repeat: no-repeat;
+    background-position-y: 80px;
+    
+}
+
+.winter{
+ background-image: url("../imgSrc/1.JPG");
+ background-repeat: no-repeat;
+ background-position-y: 80px;
+}
+
+.spring{
+
+    background-image: url("../imgSrc/2.JPG");
+    background-repeat: no-repeat;
+    background-position-y: 80px;
+
+}
+
+
+.summer{
+    background-image: url("../imgSrc/3.JPG");
+    background-repeat: no-repeat;
+    background-position-y: 80px;
+
+}
+
+
+.autumn{
+
+    background-image: url("../imgSrc/4.JPG");
+    background-repeat: no-repeat;
+    background-position-y: 80px;
+
+}
+
+.dayW{
+
+    border: 1px rgb(82, 33, 0) solid;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(167, 79, 28); 
+    text-align: center;
+}
+.dayBgCRgb{
+    background-color: rgb(156, 12, 21); 
+}
+
+.dayWB{
+
+    border: 1px rgb(82, 33, 0) solid;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    color:  rgb(230, 226, 223);
+    text-shadow: 1px 1px black;
+}
+
+
+.chColorDay{
+
+    color:  rgb(28, 167, 49);
+    text-shadow: 1px 1px black;
+    background-color:  rgb(167, 79, 28);
+    opacity: 0.8;
+}
+
+
+
+
+.dayHTcRgb{
+    color: rgb(156, 12, 21); 
+}
+
+
+
+
+div{
+
+    display: inline-block;
+}
