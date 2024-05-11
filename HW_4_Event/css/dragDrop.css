@@ -1,0 +1,57 @@
+
+.fortext{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+    text-align: left;
+    text-wrap: auto;
+    position: relative;
+    
+}
+
+.triangle{
+
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 20px solid  transparent;
+    border-right:20px solid gray ;
+    border-bottom:20px solid gray transparent ;
+    
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+    
+
+pre{
+    word-break: break-all;
+
+   white-space: pre-wrap;
+   
+}
+
+.back{
+    background-color: rgb(69, 68, 68);
+    max-height: 20px;
+    max-width: 50px;
+    margin: 1px;
+    border-radius: 7px;
+    padding-left: 10px;
+    height: 30px;
+    padding-top: 4px;
+   
+}
+a{
+
+    color: black ;
+    text-decoration: none;
+    text-shadow: 1px 0.2px rgb(87, 86, 86);
+    
+}
+
+.back:hover{
+    background-color: rgb(100, 99, 99);
+}    
