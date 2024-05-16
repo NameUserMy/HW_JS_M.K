@@ -1,0 +1,70 @@
+
+.null{
+    
+    fill: rgba(251, 120, 120);
+    filter:drop-shadow(0 0 4px  rgb(255, 0, 0)) ;
+    stroke: red;
+    stroke-width: 0.1;
+    animation: 0.8s test linear ;
+}
+@keyframes test{
+0%{
+    fill: rgba(251, 120, 120,0);
+    stroke-dasharray: 170;
+    stroke-dashoffset: 170;
+}
+100%{
+    stroke-dashoffset:0;
+    stroke-dasharray: 0;
+    fill: rgba(251, 120, 120,0.7);
+
+}
+
+}
+
+
+.screen{
+
+display: flex;
+border: solid 1px black;
+justify-content: center;
+flex-wrap: wrap;
+align-content: space-around;
+
+
+}
+
+.sizeClock{
+width: 82px;
+height: 153px;
+
+}
+
+.colonColon{
+background-image: url(imgscr/points.gif);
+}
+
+
+.second{
+
+
+    background-image: url(imgscr/0.gif);
+
+}
+
+.minute{
+
+
+    background-image: url(imgscr/0.gif);
+
+}
+
+
+.hour{
+
+
+    background-image: url(imgscr/0.gif);
+
+}
+
+
