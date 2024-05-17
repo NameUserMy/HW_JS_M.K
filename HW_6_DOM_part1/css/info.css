@@ -1,0 +1,67 @@
+
+.contener{
+
+   display: flex;
+    width:fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.elem:hover{
+
+    background-color: rgb(255, 161, 73);
+
+}
+
+.elem{
+    background-color: rgb(255, 123, 0);
+    width:549px ;
+    padding-left: 3px;
+    color: rgb(27, 26, 26);
+}
+.content{
+
+    width: 550px;
+    height:0 ;
+    background-color: rgb(28, 137, 34);
+    padding-left: 3px;
+    font-size: 0em;
+    transition-property:all;
+    transition-duration: 2s;
+}
+
+.border1pxgray{
+
+    border: solid rgb(76, 76, 76) 1px;
+
+}
+
+
+
+/* Button back */
+.back{
+    background-color: rgb(69, 68, 68);
+    max-height: 20px;
+    max-width: 50px;
+    margin: 1px;
+    border-radius: 7px;
+    padding-left: 10px;
+    height: 30px;
+    padding-top: 4px;
+   
+}
+a{
+
+    color: black ;
+    text-decoration: none;
+    text-shadow: 1px 0.2px rgb(87, 86, 86);
+    
+}
+
+.back:hover{
+    background-color: rgb(100, 99, 99);
+}   
