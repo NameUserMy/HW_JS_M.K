@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="control.js"></script>
+    <title>Dynamic list</title>
+</head>
+<body>
+    <form name="formList" class="formStyle marginLeftRight">
+        <input type="radio" name="listChange" class="margElem">  <label>Add item to final list:</label> <input class="inputMargTopButtom" name="addfinallistText" type="text" class="margElem">
+        <input type="radio" name="listChange" class="margElem">  <label>Add item to list:</label>       <input class="inputMargTopButtom" name="addItemListText" type="text" class="margElem">
+        <input type="radio" name="listChange" class="margElem">  <label>Change list item text:</label>  <input class="inputMargTopButtom" name="fieldchangeText" type="text" class="margElem">
+        <input type="radio" name="listChange" class="margElem">  <label>Add nested list:  </label>      <input class="inputMargTopButtom" name="addNestedText" type="text" class="margElem">
+        <input type="radio" name="listChange" class="margElem">  <label>Remove a list item:  </label>   
+        <input type="button" value="Add new list" name="buttonAdd" class="buttonAdd">
+    </form>
+    <div id="itemList" class="itemList marginLeftRight">
+
+
+    </div>
+</body>
+</html>
