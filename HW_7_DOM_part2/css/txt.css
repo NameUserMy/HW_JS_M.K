@@ -1,0 +1,39 @@
+
+.content{
+    width: 400px;
+    background-color: rgb(250, 140, 13);
+    padding: 5px;
+}
+
+.editText{
+    min-height:250px;
+    max-width: 390px;
+    height: fit-content;
+    margin-right: 5px;
+    resize: vertical;
+}
+
+
+
+.alignTop{
+margin-top:200px;
+}
+
+.widthElem{
+    width: fit-content;
+}
+
+.align{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    stroke-dasharray: 380;
+    stroke-dashoffset: 380;
+    transition: 1s;
+    
+}
+.button:hover{
+        stroke-dashoffset: 0;
+}
