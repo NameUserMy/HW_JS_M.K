@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/registration.css">
+    <script src="../js/registration.js"></script>
+    <title>Registration</title>
+</head>
+<body>
+    <form id="formReg" class="form align widthElem">
+
+        <label class="Title">Регистрация</label>
+        <label>Логин:</label><input class="txtField" name="loggin" type="text"/>
+        <span class="toolTip">(min 3 letters 2 num, max 20 s)</span>
+        <label>Пароль:</label><input class="txtField" name="pass" type="text"/>
+        <span class="toolTip">(min 3 letters 2 num, max 20 s)</span>
+        <label>Подтверждение:</label><input class="txtField" name="repeatPass" type="text"/>
+        <span class="toolTip">(pass no match)</span>
+        <label>Полное имя:</label><input class="txtField" name="FullName" type="text"/>
+        <span class="toolTip">(enter your name)</span>
+        <label>Пол:</label>
+        <div>
+            <input  name="sex" type="radio" value="M"/><label>M</label><br>
+            <input  name="sex" type="radio" value="F"/><label>Ж</label>
+        </div>
+        <label>Специализация:</label>
+        <div >
+            <input name="specialization" type="checkbox" value="Disgn"/><label>Дизайн</label><br/>
+            <input name="specialization" type="checkbox" value="programming"/><label>Программирование</label><br/>
+            <input name="specialization" type="checkbox" value="administration"/><label>Администрирование</label>
+        </div>
+        <label>Должность:</label>
+        <select name="post">
+            <option value="default" selected>----Выбрать----</option>
+            <option value="programming">Программист</option>
+            <option value="Disgn">Дизайнер</option>
+            <option value="administration">Администратор</option>
+        </select>
+        <span class="toolTip">(Fill the form)</span>
+       <input id="registration" type="button" value="Регистрация" /> <input id="reset" type="reset" value="Сброс" />
+        
+    </form>
+
+    <table id="info" class="content align">
+        <tr>
+            <td>Логин</td>
+            <td class="userValue"></td>
+        </tr>
+        <tr>
+            <td>Полное имя</td>
+            <td class="userValue"></td>
+        </tr>
+        <tr>
+            <td>Пол</td>
+            <td class="userValue"></td>
+        </tr>
+        <tr>
+            <td>Специализация</td>
+            <td class="userValue"></td>
+        </tr>
+        <tr>
+            <td>Должность</td>
+            <td class="userValue"></td>
+        </tr>
+
+    </table>
+    <div class="align widthElem" >
+        <svg   width="150" height="50"  viewBox="0 0 130 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <filter id="text">
+                <feDropShadow dx="0.5" dy="0.5" stdDeviation="0.1" flood-opacity="0.5" fill="#fd5417"/>
+                </filter>
+            </defs>
+            <a href="../index.html">
+                <g class="button">
+                    <rect  width="130" height="30" x="0" y="0" rx="10" ry="10" stroke-width="1" stroke="black"  fill="#fd5417" />
+                    <text  x="10" y="22" font-size="20"  stroke-width="0.2" stroke="#cc3700" fill="white" filter="url(#text)" >Back</text>
+                </g>
+            </a>
+        </svg>
+    </div>
+</body>
+</html>

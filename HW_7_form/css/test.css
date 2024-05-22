@@ -1,0 +1,46 @@
+
+
+
+.form{
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    background-color: beige;
+    padding: 10px;
+    row-gap: 5px;
+    column-gap: 5px;
+    min-width: 400px;
+    border: 1px black solid;
+    
+}
+    
+.Title{
+     grid-column: 2;
+     text-align: center;
+}
+
+#question{
+    grid-column: 2;
+    text-align: center;
+    font-weight: bold;
+    color: chocolate;
+}
+
+/*for button*/
+.widthElem{
+    width: fit-content;
+}
+
+.align{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    stroke-dasharray: 380;
+    stroke-dashoffset: 380;
+    transition: 1s;
+    
+}
+.button:hover{
+        stroke-dashoffset: 0;
+}
