@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./marcker.css">
+    <script src="./marker.js" ></script>
+    <title>Marcker</title>
+</head>
+<body>
+   <svg  width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+        <symbol id="button" >
+            <defs>
+                <filter id="text">
+                <feDropShadow dx="0.0" dy="0.0" stdDeviation="0.5" flood-opacity="0.0" fill="#fd5417"/>
+                </filter>
+            </defs>
+            <g >
+                <rect  width="143" height="30" x="1" y="1" rx="10" ry="10" stroke-width="1" stroke="black"  fill="#fd5417" />
+                
+            </g>
+        </symbol>
+       
+   </svg>
+
+
+    <div class="mainContainer align">
+        <div>
+            <div id="markerColor" class="markerColor">
+                <input id="R" type="range" min="0" max="255" value="0" >
+                <input id="G" type="range" min="0" max="255" value="0" >
+                <input id="B" type="range" min="0" max="255" value="0" >
+                <input id="A" type="range" min="0" max="1" step="0.01" value="1"  >
+            </div>
+            <textarea id="textForPrint" class="textarea"> </textarea>
+            <svg  id="printText" viewBox="0 0 145 50" fill="none">
+                <use  xlink:href="#button"></use>
+                <text x="50%" y="23"  text-anchor="middle" font-size="20"  
+                stroke-width="0.2" stroke="#cc3700" fill="white" filter="url(#text)" >
+                Print Text</text>
+            </svg>
+            <svg  id="clearPrint" viewBox="0 0 145 50" fill="none">
+                <use  xlink:href="#button"></use>
+                <text x="50%" y="23"  text-anchor="middle" font-size="20"  
+                stroke-width="0.2" stroke="#cc3700" fill="white" filter="url(#text)" >
+                Clear Print</text>
+            </svg>
+            <div id="Mytext"></div>
+        </div>
+
+        <div class="viewMarker">
+            <div id="toolTip">
+                <label >Not enough ink. Refill marker or reduce simbols</label>
+                <div id="refillbutto"></div>
+            </div>
+            <div id="ink">
+                <p id="inkValue"></p>
+           </div>
+           <div id="solid"></div>
+        </div>
+     
+    </div>
+    
+   
+</body>
+</html>
