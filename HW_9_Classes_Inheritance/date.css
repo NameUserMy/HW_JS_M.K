@@ -1,0 +1,69 @@
+
+body{
+
+    background-color: rgb(69, 68, 68);
+}
+
+.container{
+
+display: flex;
+min-width: fit-content;
+flex-direction: column;
+align-items: center;
+}
+
+#info{
+    background-color:rgb(69, 68, 68);
+    height: 25px;
+    width: 300px;
+    border: none;
+    pointer-events:none;
+}
+
+#inputText{
+    background-color:rgb(69, 68, 68);
+    height: 25px;
+    width: 230px;
+    
+    
+}
+
+dl{
+    display: inline-block;
+    width: fit-content;
+    border: 1px black solid;
+    background-color: rgb(69, 68, 68);
+    padding: 5px;
+   
+}
+
+.textInfo{
+color: rgb(100, 99, 99);
+text-shadow: 0.3px 0.3px rgb(22, 0, 0);
+font-size: 3.5em;
+}
+
+input{
+    outline: none;
+}
+
+dt{
+    
+    max-height: 50px;
+    width: 300px;
+    text-align: center;
+    text-shadow: 0.3px 0.3px gray;
+    border-bottom:2px black solid ;
+    box-shadow:0px 1px 1px gray;
+
+
+    cursor: context-menu;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+dt:hover{
+    background-color: rgb(100, 99, 99);
+}
