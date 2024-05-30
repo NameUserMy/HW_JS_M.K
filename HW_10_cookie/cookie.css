@@ -1,0 +1,46 @@
+.form{
+    display: grid;
+    grid-template-columns: 0,7fr 1fr;
+    background-color: beige;
+    padding: 10px;
+    row-gap: 5px;
+    column-gap: 5px;
+    border: 1px black solid;
+    
+    }
+    .alignelemGrid{
+     grid-column: 2;
+    }
+    .Title{
+     grid-column: 2;
+    }
+    
+    .toolTip{
+    
+        grid-column: 2;
+        display: none;
+        color: red;
+        text-align: center;
+        font-size: 0.8em;
+    }
+    .content{
+        width: 320px;
+        background-color: rgb(250, 140, 13);
+        padding: 5px;
+    }
+    
+    .widthElem{
+        width: fit-content;
+    }
+    
+    .align{
+        margin-left: auto;
+        margin-right: auto;
+    }
+textarea{
+    height: 100px;
+    resize: none;
+}
+
+    
+    

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cookie.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./cookie.js" type="module"></script>
+   
+    <title>Cookie</title>
+</head>
+<body>
+    <form id="formReg" class="form align widthElem">
+
+        <label class="Title">Регистрация</label>
+        <label>Логин:</label><input class="txtField" name="loggin" type="text" placeholder="*" />
+        <span class="toolTip">(min 3 letters 2 num, max 20 s)</span>
+        <label>Пароль:</label><input class="txtField" name="pass" type="password" placeholder="*" />
+        <span class="toolTip">(min 3 letters 2 num, max 20 s)</span>
+        <label>Подтверждение:</label><input class="txtField" name="repeatPass" type="password" placeholder="*"/>
+        <span class="toolTip">(pass no match)</span>
+        <label>Полное имя:</label><input class="txtField" name="fullName" type="text" placeholder="*"/>
+        <span class="toolTip">(enter your name)</span>
+        <label>E-mail:</label><input class="txtField" name="email" type="text" placeholder="*" />
+        <span class="toolTip">(enter your E-mail)</span>
+        <label>Пол:</label>
+        <div>
+            <input  name="gender" type="radio"  value="M"/><label>M</label><br>
+            <input  name="gender" type="radio" value="F"/><label>Ж</label>
+        </div>
+        <label>Языки:</label>
+        <div >
+            <input name="language" type="checkbox" value="English"/><label>Английский</label><br/>
+            <input name="language" type="checkbox" value="German"/><label>Немецкий</label><br/>
+            <input name="language" type="checkbox" value="French"/><label>Французкий</label><br/>
+            <input name="language" type="checkbox" value="Spanish"/><label>Испанский</label><br/>
+            <input name="language" type="checkbox" value="Italian"/><label>Итальянский</label>
+        </div>
+        <label>Сфера деятельности:</label>
+        <select name="activity">
+            <option value="Education" selected>Образование</option>
+            <option value="science">Наука</option>
+            <option value="research">Иследование</option>
+        </select>
+        <span class="toolTip">(Fill the form)</span>
+        <label>Дополнительнпя</br> информация:</label>
+        <textarea name="about"></textarea>
+       <input id="registration" type="button" value="Регистрация" /> <input id="reset" type="reset" value="Сброс" />
+        
+    </form>
+
+</body>
+</html>
