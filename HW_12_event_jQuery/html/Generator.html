@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/generator.css">
+    <script src="../js/generator.js" type="module"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Random string generator</h1>
+        <div>
+            <label >Enter count simbol: </label><input id="countsimbol"  maxlength="2" type="text">
+        </div>
+        <label>Select characters for strings</label>
+        <div>
+           <input name="choice" type="checkbox"> <label >Numeric</label></br>
+           <input name="choice" type="checkbox"> <label >UpperCase letters</label></br>
+           <input name="choice" type="checkbox"> <label >LowerCase letters</label>
+        </div>
+        <input value="Generate" id="generate" type="button"/>
+        <div> <hr /></div>
+        <div>
+            <label >Result: </label> <input id="result" type="text">
+        </div>
+       
+    </div>
+</body>
+</html>
