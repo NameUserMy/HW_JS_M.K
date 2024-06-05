@@ -1,0 +1,16 @@
+.menu{
+
+    display: grid;
+    height: fit-content;
+    width: fit-content;
+
+}
+.button{
+    stroke-dasharray: 380;
+    stroke-dashoffset: 380;
+    transition: 1s;
+    
+}
+.button:hover{
+        stroke-dashoffset: 0;
+}

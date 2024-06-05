@@ -1,0 +1,9 @@
+{
+    "question":"Где можно использовать JavaScript?",
+    "Answer": [
+        {"option":"Back End","score":12,"isAnswer":false},
+        {"option":"На авто мойке","score":0,"isAnswer":false},
+        {"option":"На детской площадке","score":0,"isAnswer":false},
+        {"option":"Front End","score":22,"isAnswer":false}
+    ]
+}

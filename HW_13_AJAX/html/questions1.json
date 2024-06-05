@@ -1,0 +1,25 @@
+
+{
+"question":"Для чего можно использовать JavaScript?",
+"Answer":[
+    {"option":"Для прохождения игр","score":0,"isAnswer":false},
+    {"option":"Для создания интерактивных веб-страниц.","score":10,"isAnswer":false},
+    {"option":"чтобы стать крутым.","score":70,"isAnswer":false},
+    {"option":"Для обработки событий на web странице.","score":20,"isAnswer":false}
+]
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

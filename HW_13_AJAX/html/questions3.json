@@ -1,0 +1,10 @@
+{
+    "question":"Какая типизация в JavaScript?",
+    "Answer":
+    [
+        {"option":"Строгая","score":0,"isAnswer":false},
+        {"option":"сердитая","score":0,"isAnswer":false},
+        {"option":"Динамичиская","score":10,"isAnswer":false},
+        {"option":"Любая","score":22,"isAnswer":false}
+    ]
+}
