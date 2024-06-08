@@ -1,0 +1,28 @@
+html,body{
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    align-content: center;
+}
+.wrap{
+    display: grid;
+    width: 50%;
+    min-height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px black solid;
+    grid-template-columns:1fr 0.1fr 1fr ;
+    grid-template-rows: 0.2fr 2fr;
+    column-gap: 2%;
+    padding: 3%;
+}
+textarea{
+
+    
+    resize: none;
+}
+#userInfo{
+    transition: color;
+    transition-duration: 500ms;
+}
