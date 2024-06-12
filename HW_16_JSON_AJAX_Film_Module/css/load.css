@@ -1,0 +1,11 @@
+
+#load{
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    right: 50%;
+    top: 30%;
+    display: none;
+}

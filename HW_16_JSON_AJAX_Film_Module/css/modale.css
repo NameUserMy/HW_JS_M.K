@@ -1,0 +1,28 @@
+#modalW{
+    height:calc(100% - 3%);
+    width: calc(100% - 5%);
+    position: absolute;
+    border: 1px solid black;
+    z-index: 10;
+    background-color: rgb(0, 0, 0,0.6);
+    top: calc(50% - 97% / 2);
+    left: calc(50% - 95% / 2);
+    align-content: center;
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 1s;
+   
+
+}
+
+#close{
+    position: absolute;
+    right: 0;
+    top:0;
+    background-color:white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 1%;
+    user-select: none;
+    cursor: pointer;
+}
